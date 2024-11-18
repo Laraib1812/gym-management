@@ -11,7 +11,7 @@ const Contact = () => {
             Contact Us
           </h1>
           <p className="text-lg text-center mb-8">
-            We'd love to hear from you! Reach out to us with your questions or
+            We&apos;d love to hear from you! Reach out to us with your questions or
             feedback.
           </p>
 
