@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex items-center justify-between bg-black text-gray-400 px-4 py-3 mb-5 md:px-8">
+    <nav className="flex items-center justify-between bg-gradient-to-r from-blue-700  text-gray-400 px-4 py-3 mb-5 md:px-8">
       {/* Logo */}
       <Link href="/">
         <div
@@ -17,8 +17,8 @@ export default function Navbar() {
       </Link>
 
       {/* Title */}
-      <h2 className="text-white text-lg md:text-xl hidden sm:block">
-        CrossFit Gym Management System
+      <h2 className="text-white text-sm md:text-xl sm:block">
+        <span className='text-yellow-200 font-bold text-xl md:text-3xl'>CrossFit</span> Gym Management System
       </h2>
 
       {/* Hamburger Menu (Mobile) */}

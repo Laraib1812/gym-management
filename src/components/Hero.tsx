@@ -6,11 +6,11 @@ const Hero = () => {
     <main >
         {/* Hero Section */}
         <section
-          className="grid grid-cols-2 h-screen bg-fix bg-contain bg-right flex items-center justify-center text-center p-4 md:p-0"
+          className="grid grid-cols-2 h-screen bg-fix bg-contain sm:bg-right flex items-center justify-center text-center p-4 md:p-0"
           style={{ backgroundImage: 'url(/download.png)', backgroundSize: 'sm', backgroundRepeat: 'no-repeat', margin : "20"}}
         >
-          <div className=" bg-black ml-5 p-8 rounded-lg max-w-xl hover:scale-105 transition-transform duration-300">
-            <h1 className="text-3xl md:text-5xl font-bold text-white">Empower Your Gym Management</h1>
+          <div className=" bg-black border ml-5 p-8 rounded-lg max-w-xl hover:scale-105 transition-transform duration-300">
+            <h1 className="text-2xl md:text-5xl font-bold text-white">Empower Your Gym Management</h1>
             <p className="text-sm md:text-lg text-gray-200 mt-4">Efficient tools for trainers, members, and operations.</p>
             <a
               href="#features"

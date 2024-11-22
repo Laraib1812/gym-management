@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col items-center justify-center min-h-screen px-4">
+      <main className="flex flex-col items-center justify-center min-h-screen px-4"
+      style={{backgroundImage : "url(communcate.svg)",backgroundSize: 'sm', backgroundRepeat: 'no-repeat', margin : "20"}}
+      >
         <div className="w-full max-w-4xl text-white shadow-lg rounded-lg p-6 md:p-10">
           <h1 className="text-3xl md:text-5xl font-bold text-center  mb-6">
             Contact Us
@@ -24,7 +26,7 @@ const Contact = () => {
               <input
                 type="text"
                 id="name"
-                className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500 hover:scale-105"
+                className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500 "
                 placeholder="Ali"
                 required
               />
@@ -36,7 +38,7 @@ const Contact = () => {
               <input
                 type="email"
                 id="email"
-                className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500 hover:scale-105"
+                className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500 "
                 placeholder="example@gmail.com"
                 required
               />
@@ -48,7 +50,7 @@ const Contact = () => {
               <textarea
                 id="message"
                 rows="5"
-                className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500 hover:scale-105"
+                className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500 "
                 placeholder="Write your message here..."
                 required
               ></textarea>

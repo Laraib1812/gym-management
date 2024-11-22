@@ -32,7 +32,7 @@ const Memberships = () => {
               <li>✔️ Basic trainer support</li>
             </ul>
             <div className="text-center">
-              <p className="text-xl font-bold text-gray-800">150 rupiyaa</p>
+              <p className="text-xl font-bold text-gray-800">$150 / month</p>
               <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-gray-600 transition">
                 Sign Up
               </button>
@@ -54,7 +54,7 @@ const Memberships = () => {
               <li>✔️ Advanced equipment</li>
             </ul>
             <div className="text-center">
-              <p className="text-xl font-bold text-gray-800">500 lagayga bhai</p>
+              <p className="text-xl font-bold text-gray-800">$500 / month</p>
               <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-gray-600 transition">
                 Sign Up
               </button>
@@ -76,7 +76,7 @@ const Memberships = () => {
               <li>✔️ Nutrition consultations</li>
             </ul>
             <div className="text-center">
-              <p className="text-xl font-bold text-gray-800">aik maheenayy ka 1000 rupiyaa lagayga baqi khud dekhlo leyna ha k nahi</p>
+              <p className="text-xl font-bold text-gray-800">$1000 / month</p>
               <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-gray-600 transition">
                 Sign Up
               </button>
