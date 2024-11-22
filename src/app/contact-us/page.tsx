@@ -1,14 +1,15 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 
-const Contact = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your form submission logic here
-    console.log("Form submitted");
-  };
+// const Contact = () => {
+//   // const handleSubmit = (e) => {
+//   //   e.preventDefault();
+//     // Add your form submission logic here
+//     console.log("Form submitted");
+//   };
 
-  return (
+  function Contact (){
+    return (
     <>
       <Navbar />
       <main
