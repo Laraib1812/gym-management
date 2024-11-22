@@ -63,7 +63,7 @@ const Contact = () => {
               </label>
               <textarea
                 id="message"
-                rows="5"
+                rows={5}
                 className="w-full mt-2 p-3 border border-gray-300 text-black rounded-lg focus:ring-2 focus:ring-blue-500"
                 placeholder="Write your message here..."
                 aria-label="Your Message"
